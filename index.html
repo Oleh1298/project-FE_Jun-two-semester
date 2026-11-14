@@ -2,60 +2,66 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/style.css">
 <title>project-FE_Jun-two-semester</title>
 </head>
 <body>
     <!-- ctrl + / -->
      <header class="header">
-<ul class="header-list">
-    <li class="header-text"><a href="#" style="color:#F4DE1F;">HOME</a></li>
-    <li class="header-text"><a href="#">PAGES</a></li>
-    <li class="header-text"><a href="#">BLOG</a></li>
-    <li class="header-text"><a href="#">GALLERY</a></li>
-    <li class="header-text"><a href="#">ELEMENTS</a></li>
-    <li class="header-text"><a href="#">CONTACTS</a></li>
+<div class="container">        
+    <ul class="header-list">
+    <li class="header-nav current-page"><a href="#">HOME</a></li>
+    <li class="header-nav"><a href="#">PAGES</a></li>
+    <li class="header-nav"><a href="#">BLOG</a></li>
+    <li class="header-nav"><a href="#">GALLERY</a></li>
+    <li class="header-nav"><a href="#">ELEMENTS</a></li>
+    <li class="header-nav"><a href="#">CONTACTS</a></li>
 </ul>
+</div>
      </header>
-     <section class="hero">
-        <div class="container">
-            <h1 class="hero_title">Enjoy scuba diving with us</h1>
+     <main>
+        <section class="hero">
+        <div class="container hero-container">
+        <div class="hero-info">
+            <h1 class="hero-title">Enjoy scuba diving with us</h1>
             <p class="hero-text">We offer a wide variety of scuba diving tours and locations for everyone</p>
-            <div class="img"><img src="./img/hero-img.png" alt="hero-img"></div>
+        </div>
+            <div class="img"><img src="./img/hero-img.png" alt=""></div>
         </div>
      </section>
      
      <section class="dest">
       <div class="container">
-          <ul class="dest_cards">
+          <h2 class="dest-title">Destinations</h2>
+        <ul class="dest-list">
             <li class="dest-card">
-                <div class="dest-item">
-                    <div class="img"><img src="./img/destinations-1.png" alt="dest-img1" class="dest-img"></div>
-                    <h3 class="title-dest">Maldives</h3>
-                    <p class="text-dest">True abundance of marine life</p>
+                <div class="dest-info">
+                    <div class="img"><img src="./img/destinations-1.png" alt="" class="dest-img"></div>
+                    <h3 class="title-dest_info">Maldives</h3>
+                    <p class="text-dest_info">True abundance of marine life</p>
                     <p class="book-now">BOOK NOW</p>
                 </div>
             </li>
 
             <li class="dest-card">
-                <div class="dest-item">
-                    <div class="img"><img src="./img/destinations-2.png" alt="dest-img2" class="dest-img"></div>
-                    <h3 class="title-dest">Indonesia</h3>
-                    <p class="text-dest">Unique marine diversity</p>
+                <div class="dest-info">
+                    <div class="img"><img src="./img/destinations-2.png" alt="" class="dest-img"></div>
+                    <h3 class="title-dest_info">Indonesia</h3>
+                    <p class="text-dest_info">Unique marine diversity</p>
                     <p class="book-now">BOOK NOW</p>
                 </div>
             </li>
 
             <li class="dest-card">
-                <div class="dest-item">
-                    <div class="img"><img src="./img/destinations-3.png" alt="dest-img3" class="dest-img"></div>
-                    <h3 class="title-dest">Australia</h3>
-                    <p class="text-dest">The world’s top scuba destination</p>
+                <div class="dest-info">
+                    <div class="img"><img src="./img/destinations-3.png" alt="" class="dest-img"></div>
+                    <h3 class="title-dest_info">Australia</h3>
+                    <p class="text-dest_info">The world’s top scuba destination</p>
                     <p class="book-now">BOOK NOW</p>
                 </li>
             </div>
@@ -64,51 +70,62 @@
      </section>
 
      <section class="blog">
-          <h2 class="our_blog">Our Blog</h2>
-        <div class="container">
-        <ul class="blog-cards">
+         
+        <div class="container"> 
+            <h2 class="our_blog">Our Blog</h2>
+        <ul class="blog-list">
             
             <li class="blog-card">
-                <div class="dest-item">
-                    <div class="img"><img src="./img/our_blog-1.png" alt="blog-img1" class="blog-img"></div>
+                <div class="blog-item">
+                    <div class="img"><img src="./img/our_blog-1.png" alt="" class="blog-img"></div>
+                    <div class="blog-info">
                     <p class="blog-data">August 9, 2021</p>
-                    <h3 class="title-blog">New Caledonia: The Lagoon of All Hopes</h3>
-                    <p class="text-blog">As we dived for the very first time in the lagoon of New Caledonia. at Duck Island. with only our masks and fins..</p>               
-            </li>
-
+                    <h3 class="blog-title">New Caledonia: The Lagoon of All Hopes</h3>
+                    <p class="blog-text">As we dived for the very first time in the lagoon of New Caledonia. at Duck Island. with only our masks and fins..</p>               
+       </div>
+    </div> 
+     </li>
             <li class="blog-card">
-                <div class="dest-item">
-                    <div class="img"><img src="./img/our_blog-2.png" alt="blog-img2" class="blog-img"></div>
+                <div class="blog-item">
+                    <div class="img"><img src="./img/our_blog-2.png" alt="" class="blog-img"></div>
+                    <div class="blog-info">
                     <p class="blog-data">August 9, 2021</p>
-                    <h3 class="title-blog">Scuba Diving in Okinawa: A First-timer Guide</h3>
-                    <p class="text-blog">It is one of these places where it is not so straightforward to organize a scuba diving trip. There are so many...</p>               
-            </li>
-
+                    <h3 class="blog-title">Scuba Diving in Okinawa: A First-timer Guide</h3>
+                    <p class="blog-text">It is one of these places where it is not so straightforward to organize a scuba diving trip. There are so many...</p>               
+           </div>
+        </div>
+                </li> 
             <li class="blog-card">
-                <div class="dest-item">
-                    <div class="img"><img src="./img/our_blog-3.png" alt="blog-img3" class="blog-img"></div>
+                <div class="blog-item">
+                    <div class="img"><img src="./img/our_blog-3.png" alt="" class="blog-img"></div>
+                    <div class="blog-info">
                     <p class="blog-data">August 9, 2021</p>
-                    <h3 class="title-blog">Shore Diving in Maui & Big Island</h3>
-                    <p class="text-blog">The Hawaiian Archipelago is full of bucket dives with exciting adventures such as diving in the crater...</p>               
-            </li>
+                    <h3 class="blog-title">Shore Diving in Maui & Big Island</h3>
+                    <p class="blog-text">The Hawaiian Archipelago is full of bucket dives with exciting adventures such as diving in the crater...</p>               
+            </div>
+        </div>
+                </li>
             </ul>
         </div>
      </section>
+    </main>
 
      <footer class="footer">
         <div class="gallery">
         <h2 class="gallery-title">Gallery</h2>
         <ul class="footer-gallery">
-            <li class="footer-img"><img src="./img/footer-1.png" alt="footer-img"></li>
-            <li class="footer-img"><img src="./img/footer-2.png" alt="footer-img"></li>
-            <li class="footer-img"><img src="./img/footer-3.png" alt="footer-img"></li>
-            <li class="footer-img"><img src="./img/footer-4.png" alt="footer-img"></li>
-            <li class="footer-img"><img src="./img/footer-5.png" alt="footer-img"></li>
-            <li class="footer-img"><img src="./img/footer-6.png" alt="footer-img"></li>
+            <li class="footer-img-item"><img src="./img/footer-1.png" alt="" class="footer-img"></li>
+            <li class="footer-img-item"><img src="./img/footer-2.png" alt="" class="footer-img"></li>
+            <li class="footer-img-item"><img src="./img/footer-3.png" alt="" class="footer-img"></li>
+            <li class="footer-img-item"><img src="./img/footer-4.png" alt="" class="footer-img"></li>
+            <li class="footer-img-item"><img src="./img/footer-5.png" alt="" class="footer-img"></li>
+            <li class="footer-img-item"><img src="./img/footer-6.png" alt="" class="footer-img"></li>
         </ul>
         </div>
+        <div class="container">
         <div class="links">
-        <ul class="links-text">
+        <h2 class="quick-links">Quick Links</h2>
+         <ul class="links-text">
             <li class="footer-link">About Us</li>
             <li class="footer-link">What We Offer</li>
             <li class="footer-link">FAQ</li>
@@ -117,8 +134,13 @@
             <li class="footer-link">Blog</li>
             <li class="footer-link">Gallery</li>
             <li class="footer-link">Pricing</li>
-        </ul>
-    </div>
+</div>
+</div>  
+</ul>
+
+<div class="coperidht">
+    <p>© 2023 Divers. All Rights Reserved. Privacy Policy</p>
+</div>
      </footer>
 </body>
 </html>                   
