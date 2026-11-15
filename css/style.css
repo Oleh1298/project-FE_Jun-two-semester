@@ -144,10 +144,6 @@ font-size: 40px;
 color: var(--text-black);
 }
 
-.dest-info{
-     display: flex;
-   justify-content: center;
-}
 .dest-card{
     width: 520px;
     height: 522px;
