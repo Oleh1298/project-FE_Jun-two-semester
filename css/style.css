@@ -31,7 +31,7 @@ body{
     background-color: var(--hero-background-color);
 }
 .container{
-    margin: 0;
+    margin: 0 auto;
     padding: 0 15px;
     max-width: 1650px;
 }
@@ -58,6 +58,7 @@ display: flex;
    justify-content: center;
     align-items: center;    
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .our_blog{
@@ -111,11 +112,18 @@ padding: 25px 0 0 0;
     font-size: 24px;
 }
 
+.header{
+    padding: 60px 0;
+    border-bottom: var(--text-white) 1px solid;
+}
+
 .header-list{
     display: flex;
-    gap:95px;
+    justify-content: space-between;
     align-items: center;
-    padding: 0 424px 0 424px;
+    max-width: 60%;
+    margin: 0 auto;
+    
 }
 .header-nav a:hover {
      color: #F4DE1F;
@@ -132,7 +140,12 @@ padding: 25px 0 0 0;
 display: flex;
    justify-content: center;
     align-items: center;    
-    gap: 30px;
+flex-wrap: wrap;
+gap: 30px;
+}
+
+.dest{
+    padding: 80px 0;
 }
 
 .dest-title{
@@ -144,16 +157,14 @@ font-size: 40px;
 color: var(--text-black);
 }
 
-.dest-info{
-     display: flex;
-   justify-content: center;
-}
 .dest-card{
     width: 520px;
     height: 522px;
+    text-align: center;
 }
 .title-dest_info{
 font-size: 36px;
+padding: 30px 0 15px;
 }
 
 .title-dest_info , .text-dest_info{
@@ -165,6 +176,7 @@ color: var(--text-black);
 
 .book-now{
     color: var(--text-grey);
+    padding-top: 30px;
 }
 .dest-img{
 width: 520px;
@@ -197,6 +209,7 @@ height: 342px;
 
 footer{
     background-color: var(--footer-background-color);
+
 }
 
 .footer-img{
@@ -211,7 +224,11 @@ grid-template-columns: repeat(3, 150px);
     gap: 25px; 
     padding-left: 150px;
 }
-
+.container-gallery-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .gallery-title{
     color: var(--text-white);
     padding: 80px 0 50px 0;
@@ -219,10 +236,23 @@ grid-template-columns: repeat(3, 150px);
      padding-left: 150px;
 }
 
-.links{
-   
-    color: var(--text-white);
-   
+.footer-links{
+    color: var(--text-white); 
+}
+
+.gallery-links{
+    background-color: var(--footer-background-color);
+    padding-top: 75px;
+
+}
+.footer-link{
+    flex-basis: calc((100% - 30%) / 2);
+     padding: 50px 0 50px ;
+}
+.links-text{
+    display: flex;
+    flex-wrap: wrap;
+    gap:30%;
 }
 .gallery{
     width: 500px;

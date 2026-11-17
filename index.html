@@ -12,20 +12,23 @@
 </head>
 <body>
     <!-- ctrl + / -->
+     <!-- !!!ЗАПОВНИТИ ALT!!! -->
+       <!-- !!!ЗАПОВНИТИ ALT!!! -->
+         <!-- !!!ЗАПОВНИТИ ALT!!! -->
      <header class="header">
 <div class="container">        
     <ul class="header-list">
     <li class="header-nav current-page"><a href="#">HOME</a></li>
     <li class="header-nav"><a href="#">PAGES</a></li>
-    <li class="header-nav"><a href="#">BLOG</a></li>
-    <li class="header-nav"><a href="#">GALLERY</a></li>
+    <li class="header-nav"><a href="#blog">BLOG</a></li>
+    <li class="header-nav"><a href="#gallery">GALLERY</a></li>
     <li class="header-nav"><a href="#">ELEMENTS</a></li>
     <li class="header-nav"><a href="#">CONTACTS</a></li>
 </ul>
 </div>
      </header>
      <main>
-        <section class="hero">
+        <section class="hero " id="hero">
         <div class="container hero-container">
         <div class="hero-info">
             <h1 class="hero-title">Enjoy scuba diving with us</h1>
@@ -40,37 +43,30 @@
           <h2 class="dest-title">Destinations</h2>
         <ul class="dest-list">
             <li class="dest-card">
-                <div class="dest-info">
                     <div class="img"><img src="./img/destinations-1.png" alt="" class="dest-img"></div>
                     <h3 class="title-dest_info">Maldives</h3>
                     <p class="text-dest_info">True abundance of marine life</p>
                     <p class="book-now">BOOK NOW</p>
-                </div>
             </li>
 
             <li class="dest-card">
-                <div class="dest-info">
                     <div class="img"><img src="./img/destinations-2.png" alt="" class="dest-img"></div>
                     <h3 class="title-dest_info">Indonesia</h3>
                     <p class="text-dest_info">Unique marine diversity</p>
                     <p class="book-now">BOOK NOW</p>
-                </div>
             </li>
 
             <li class="dest-card">
-                <div class="dest-info">
                     <div class="img"><img src="./img/destinations-3.png" alt="" class="dest-img"></div>
                     <h3 class="title-dest_info">Australia</h3>
                     <p class="text-dest_info">The world’s top scuba destination</p>
                     <p class="book-now">BOOK NOW</p>
                 </li>
-            </div>
         </ul>
     </div>
      </section>
 
      <section class="blog">
-         
         <div class="container"> 
             <h2 class="our_blog">Our Blog</h2>
         <ul class="blog-list">
@@ -108,10 +104,10 @@
             </ul>
         </div>
      </section>
-    </main>
 
-     <footer class="footer">
-        <div class="gallery">
+ <section class="gallery-links"> 
+    <div class="container container-gallery-links">
+    <div class="gallery" id="gallery">
         <h2 class="gallery-title">Gallery</h2>
         <ul class="footer-gallery">
             <li class="footer-img-item"><img src="./img/footer-1.png" alt="" class="footer-img"></li>
@@ -123,7 +119,7 @@
         </ul>
         </div>
         <div class="container">
-        <div class="links">
+        <div class="footer-links">
         <h2 class="quick-links">Quick Links</h2>
          <ul class="links-text">
             <li class="footer-link">About Us</li>
@@ -134,12 +130,19 @@
             <li class="footer-link">Blog</li>
             <li class="footer-link">Gallery</li>
             <li class="footer-link">Pricing</li>
-</div>
-</div>  
 </ul>
+</div>
+</div> 
+ </div></section>
+   </main>
+
+
+     <footer class="footer">
+       
+
 
 <div class="coperidht">
-    <p>© 2023 Divers. All Rights Reserved. Privacy Policy</p>
+    <p class="coperidht">© 2023 Divers. All Rights Reserved. Privacy Policy</p>
 </div>
      </footer>
 </body>
